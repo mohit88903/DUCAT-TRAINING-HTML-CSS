@@ -1,0 +1,17 @@
+*{margin: 0px; padding: 0pox; box-sizing: border-box;}
+.mainbody{height: 800px; width: 100%; position: relative; overflow: hidden;}
+.mainbody::before{
+    content: '';
+    background: url('pic5.jpg'); background-size: cover;
+    position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;
+    opacity: 0.2;
+}
+.container{position: relative; top: 100px; left: 100px; padding: 20px;}
+.outer{height: 200px; width: 200px; border-radius: 50%; perspective: 800px;}
+.inner{height: 100%; width: 100%; border-radius: 50%; transition: all 3s; transform-style: preserve-3d;}
+.front,.back{height: 100%; width: 100%; border-radius: 50%; position: absolute; backface-visibility: hidden;}
+.front img{height: 200px; width: 200px; border-radius: 50%;}
+.back{padding: 40px; transform: rotateX(-180deg); background: orange;}
+.outer:hover .inner{
+    transform: rotateX(-180deg);
+}

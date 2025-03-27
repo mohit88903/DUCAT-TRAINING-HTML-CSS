@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        .header{padding: 40px; text-align: center; font-size: 4vmin; font-weight: bold; background: orange;}
+.card{display: grid; grid-template-columns: auto auto auto auto; gap: 20px;}
+.prow{border: 2px solid blue;
+& img{height: auto; width: 100%; max-width: 100%;}
+}
+
+@media only screen and (max-width:1200px){
+    .card{ grid-template-columns: auto auto auto; }
+
+}
+
+@media only screen and (max-width:992px){
+    .card{ grid-template-columns: auto auto; }
+    
+}
+@media only screen and (max-width:768px){
+    .card{ grid-template-columns: auto ; }
+
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="card">
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+        <div class="prow">
+            <img src="pic4.jpg">
+        </div>
+
+
+    </div>
+</body>
+</html>
