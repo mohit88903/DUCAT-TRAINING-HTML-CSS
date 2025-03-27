@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    font-size: 6em;
+    position: relative;
+}
+.first{
+    color:red;
+    position: relative;
+    z-index: 1;
+    animation:data 2s linear infinite;
+}
+.second{
+        color: red;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        animation:echo 2s infinite linear ;
+
+}
+@keyframes data {
+    0%{transform: scale(1);}
+    15%{transform: scale(0.9);}
+    21%{transform: scale(1.1) skew(0.004turn);}
+    28%{transform: scale(1) skew(0.008turn);}
+    35%{transform: scale(1) skew(0);}
+    
+}
+@keyframes echo {
+    0%{opacity: 0.5; transform: scale(1);}
+    15%{opacity: 0.4; transform: scale(0.8);}
+    21%{opacity: 0.4; transform: scale(1.1);}
+    100%{opacity: 0; transform: scale(3);}
+}

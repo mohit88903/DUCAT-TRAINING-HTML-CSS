@@ -1,0 +1,6 @@
+*{margin: 0; padding: 0; box-sizing: border-box; word-wrap: break-word;}
+.mainbody{height: 630px; width:100%; background-color: white;}
+.main{height: 50px; width: 100%; background-color: blue; text-align: center;}
+.header{height: 200px; width: 100%; background-color: red; text-align: center;}
+.center{height: 190px; width: 100%; background-color: red; margin-top: 10px; text-align: center;}
+.footer{height: 190px; width: 100%; background-color: blue; margin-top: 10px; text-align: center;}

@@ -1,0 +1,11 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; word-wrap: break-word;}
+
+.container{height: auto; width: 100%;}
+.header{height: auto; width: 100%; padding: 42px; text-align: center; background: rgb(52, 7, 232);
+& h1{font-size: 44px; color: white; font-family: cursive; font-weight: bold;}
+}
+.menu{height: auto; width: 100%; background: lightblue; padding: 12px;
+& a{text-decoration: none; padding: 12px 34px;
+&:hover{background: purple; color: white;}
+}
+}

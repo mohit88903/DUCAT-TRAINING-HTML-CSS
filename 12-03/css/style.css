@@ -1,0 +1,36 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.mainbody{height: auto; width: 100%;}
+/* .header{height: auto; width: 100%; background: blue; padding: 40px;
+& h1{float: right; color: white; margin-right: 150px; font-size: 40px; font-weight: bold;}
+} */
+
+.header{height: auto; width: 100%; background: blue; padding: 40px; position: relative;}
+.title{position: absolute; left: 40%; top: 24px; font-size: 40px; color: white;}
+.menu{height: auto; width: 100%; padding: 14px; background: lightblue;
+    position: sticky; top: 0px; z-index: 2;
+& a{text-decoration: none; padding: 14px 28px;
+&:hover{background: purple; color: white;}
+}
+}
+.slider{height: auto; width: 100%;
+& img{height: 600px; width: 100%;}
+}
+.center{height: 1200px; width: 100%;}
+.left{height: 1200px; width: 75%; float: left; background: grey;
+padding: 40px; text-align: justify;
+& p::first-letter{font-size: 30px; initial-letter: 3; color: red;}
+& p{margin: 20px 0px;}
+}
+.right{height: 1200px; width: 25%; float: right; background: wheat;}
+.marquee{height: auto; width: 100%; line-height: 40px; position: relative; z-index: 1;}
+.imagedata{height: auto; width: 100%;
+& img{width: 100%; margin-top: 20px;}
+}
+.profile{height: 500px; width: 100%;}
+.pleft{height: 500px; width: 25%; float: left; border: solid;
+& img{height: auto; max-width: 100%;}
+}
+.data{text-align: center; padding: 12px; line-height: 30px;}
+.footer{height: auto; width: 100%; background: black; padding: 30px; text-align: center; font-size: 22px;
+color: white;
+}

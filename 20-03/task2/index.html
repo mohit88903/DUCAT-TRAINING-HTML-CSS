@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Four Boxes</title>
+<style>
+.container {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+  margin-top: 200px;
+  animation:rotate 5s infinite linear;
+  
+}
+.box {
+  width:50%;
+  height:50%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  
+}
+.box1 {
+    background-color: lightblue;
+    border-top-left-radius: 50%;
+    & a{
+        text-decoration: none;
+       position: relative;
+       top: 40px;
+       left: 40px;
+       font-size: 24px;
+    }
+
+    
+}
+.box2 {
+    background-color: lightcoral;
+    border-top-right-radius: 50%;
+    & a{
+        text-decoration: none;
+       position: relative;
+       top: 40px;
+       left: 30px;
+       font-size: 24px;
+    }
+
+}
+.box3 {
+    background-color: lightgreen;
+    border-bottom-left-radius: 50%;
+    & a{
+        text-decoration: none;
+       position: relative;
+       top: 40px;
+       left: 35px;
+       font-size: 24px;
+    }
+}
+.box4 {
+    background-color: lightgoldenrodyellow;
+    border-bottom-right-radius: 50%;
+    & a{
+        text-decoration: none;
+       position: relative;
+       top: 40px;
+       left: 10px;
+       font-size: 24px;
+    }
+}
+
+@keyframes rotate {
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(360deg);}
+    
+    
+}
+.container:hover{
+    animation-play-state: paused;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box box1"><a href="">Home</a></div>
+  <div class="box box2"><a href="">About</a></div>
+  <div class="box box3"><a href="">Contact</a></div>
+  <div class="box box4"><a href="">Information</a></div>
+</div>
+
+</body>
+</html>

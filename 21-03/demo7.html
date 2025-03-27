@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.outer{height: 300px; width: 500px; border: 4px solid blueviolet;
+perspective: 1000px; perspective-origin:center center;
+}
+.inner{height: 300px; width: 500px; background: orange;
+animation: data 5s; animation-fill-mode: forwards;
+
+}
+@keyframes data{
+    0%{transform: rotatex(0deg);}
+    100%{transform: rotatex(40deg);}
+}
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+hello
+        </div>
+    </div>
+</body>
+</html>

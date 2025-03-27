@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.a{height: 500px; width: 500px; border-radius: 50%; 
+    background: linear-gradient(red,blue,orange,grey);
+animation: rotate1 5s infinite linear;
+}
+    .b{height: 300px; width: 300px; border-radius: 50%; 
+        background: linear-gradient(green,lightblue,orange,rgb(192, 133, 133));
+    position: absolute; top: 100px;left: 100px;animation: rotate1 5s infinite linear;
+    animation-direction: reverse;
+    }
+    .c{height: 100px; width: 100px; border-radius: 50%; 
+        background: linear-gradient(yellow,rgb(0,0,0),green);
+    position: absolute; top: 200px;left: 200px;animation: rotate1 5s infinite linear;
+    }
+    @keyframes rotate1{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
+    /* @keyframes rotate2{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
+    @keyframes rotate3{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    } */
+    .a:hover{
+        animation-play-state: paused;
+    }
+    .b:hover{
+        animation-play-state: paused;
+    }
+    .c:hover{
+        animation-play-state: paused;
+    }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+</html>

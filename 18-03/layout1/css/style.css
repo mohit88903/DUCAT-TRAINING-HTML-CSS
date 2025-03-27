@@ -1,0 +1,13 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.container{height: 1000px; width: 100%; }
+.header{height: 150px; width: 100%;}
+.logo{height: 150px; width: 20%; float: left; background: red; text-align: center;}
+.title{height: 150px; width: 80%; float: right; background: grey; text-align: center;}
+.menu{height: 50px; width: 100%; background: lightgoldenrodyellow; text-align: center;}
+.section{height: 250px; width: 100%;}
+.section1{height: 250px; width: 33.33%; float: left; background: blue;}
+.section2{height: 250px; width: 33.33%; float: left; background: rgb(6, 6, 85);}
+.section3{height: 250px; width: 33.33%; float: left; background: rgb(131, 131, 150);}
+.center{height: 450px; width: 100%;}
+.left{height: 450px; width: 70%; float: left; background: yellowgreen;}
+.right{height: 450px; width: 30%; float: right; background: violet;}

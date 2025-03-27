@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .mainbody{
+    height:auto;
+    width: 100%;
+    background-color: #fcf5eb;
+}
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: #fcf5eb;
+    padding: 0px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+    z-index: 2;
+    & a{ 
+        text-decoration: none;
+        font-size: 14px;
+        color:#1c1e21;
+        position: relative;
+        left: 20px;
+
+    } 
+    & img{
+        position: relative;
+        right: 10px;
+    
+    }
+
+}
+ .login{
+    background-color: white;
+    border: 1px solid black;
+    padding:10px 50px 10px 20px  ;
+    border-radius: 30px;
+    position: relative;
+    left: 35px;
+    & i{
+        padding-left: 10px;
+    }
+  
+    
+    /* &:hover{
+        background-color: black;
+        color: white;
+        
+    } */
+    
+} 
+ .download{
+    background-color: #25d366;
+    border: 1px solid black;
+    padding:12px 40px 12px 20px  ;
+    border-radius: 30px;
+    position: relative;
+    left: 15px;
+    & i{
+        padding-left: 10px;
+    }
+    /* &:hover{
+        background-color: black;
+        color: white;
+       
+    } */
+
+}
+
+  .image{
+    height:700px;
+    width: 90%;
+    background-image: url('../images/pic2.png');
+    background-size: cover;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+    position: relative;
+    & h1{
+        position: absolute;
+        font-size: 50px;
+        color: white;
+        top: 180px;
+        left: 70px;
+        font-weight: 100;
+        
+    }
+    & p{
+        position: absolute;
+        top: 310px;
+        left: 70px;
+        color: white;
+        font-size: 15px;
+
+    }
+    & .a{
+        position: absolute;
+        top: 100px;
+        right: 30px;
+        
+    }
+    & .b{
+        position: absolute;
+        top: 180px;
+        right: 30px;
+    
+    }
+    & .c{
+        position: absolute;
+        height: 250px;
+        width:450px;
+        bottom: 200px;
+        right: 30px;
+        font-size: 10px;
+    }
+    & .d{
+        position: absolute;
+        bottom: 130px;
+        right:20px;
+
+        
+    }
+     & .login1 .mm{
+        background-color: white;
+    border: 1px solid black;
+    padding:13px 30px 13px 26px  ;
+    border-radius: 30px;
+    position: relative;
+    top: 400px;
+    left: 200px;
+    font-size: 13px;
+    }
+    a{
+        text-decoration: none;
+    }
+    & i{
+        padding-left: 10px;
+    }
+     }
+     & .login1 .mmm{
+        background-color: #25d366;
+    border: 1px solid black;
+    padding:13px 30px 13px 20px  ;
+    border-radius: 30px;
+    position: relative;
+    top: 400px;
+    right:60px;
+    font-size: 13px;
+    & i{
+        padding-left: 10px;
+        
+    }
+} 
+
+
+ .center{
+    height: 1600px;
+    width: 100%;
+    position: relative;
+    & h1{
+        text-align: center;
+        padding-top:110px ;
+        font-size: 35px;
+        font-weight: 100;
+
+    }
+    & h2{
+        position: absolute;
+        bottom: 350px;
+        left: 100px;
+        font-size: 40px;
+        font-weight: 200;
+    }
+    & p{
+        position: absolute;
+        bottom: 280px;
+        left: 100px;
+        font-size: 15px;
+    }
+   
+}
+.centerimage1{
+    position: relative;
+    height: 200px;
+    width: 95%;
+    top: 80px;
+}
+.centerimage2{
+    height: 300px;
+    width: 95%;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.centerimage3{
+
+    position: absolute;
+    right: 130px;
+    bottom: 40px;
+}
+.learnmore{
+    position: absolute;
+    left: 100px;
+    bottom: 220px;
+    & i{
+        padding-left: 2px;
+    }
+} 
+
+
+
+
+ .container{
+    height: 700px;
+    width: 100%;
+    background-color: #111b21;
+    position: relative;
+    & img{
+        position: absolute;
+        left: 100px;
+        top: 150px;
+    }
+    & h1{
+        position: absolute;
+        right: 340px;
+        top: 250px;
+        font-size: 50px;
+        font-weight: 200;
+        color: white;
+    }
+    & p{
+        position: absolute;
+        right: 100px;
+        top: 400px;
+        font-size: 15px;
+        color: white;
+    }
+     & a{
+        position: absolute;
+        right: 390px;
+        bottom: 190px;
+        font-size: 15px;
+        color: white;
+
+        & i{
+            padding-left: 2px;
+        }
+     }
+    & img{
+        height: 500px;
+
+     }
+
+} 
+
+ .container1{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    & h1{
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        font-size: 40px;
+        font-weight: 200;
+    }
+    & p{
+        position: absolute;
+        top: 300px;
+        left: 100px;
+        font-size:17px;
+    }
+    & a{
+        position: absolute;
+        left: 100px;
+        bottom: 200px;
+        font-size: 15px;
+    
+
+        & i{
+            padding-left: 2px;
+        }
+     }
+     & .image1{
+        height: 500px;
+        position:absolute;
+        right: 90px;
+        top: 90px;
+        bottom: 40px;
+     }
+     & .image2{
+        height: 350px;
+        position:absolute;
+        right: 90px;
+        top:190px;
+        bottom: 40px;
+     }
+
+}
+
+.container2{
+    height: 600px;
+    width: 100%;
+    position: relative;
+
+    & img{
+        height: 450px;
+        width: 300px;
+        position: absolute;
+        top: 100px;
+        left: 170px;
+    }
+    & h1{
+        position: absolute;
+        font-weight: 200;
+        font-size: 40px;
+        right: 260px;
+        top: 200px;
+    }
+    & p{
+        position: absolute;
+        top: 310px;
+        right:70px;
+        font-size: 14px;
+    }
+    & a{
+        position: absolute;
+        right: 330px;
+        bottom: 200px;
+        font-size: 15px;
+        color: black;
+    
+
+        & i{
+            padding-left: 2px;
+        }
+     }
+
+}
+
+.container3{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    & h1{
+        position: absolute;
+        top: 310px;
+        left: 100px;
+        font-weight: 300;
+        font-size: 45px;
+    }
+    & p{
+        position: absolute;
+        bottom: 200px;
+        left: 100px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    & a{
+        position: absolute;
+        left: 100px;
+        bottom: 150px;
+        font-size: 15px;
+        color: black;
+    
+
+        & i{
+            padding-left: 2px;
+        }
+     }
+     & img{
+        height: 500px;
+        width: 250px;
+        position: absolute;
+        right: 100px;
+        top: 100px;
+     }
+}
+
+
+.container4{
+    height: 400px;
+    width: 100%;
+    background-color: #111b21;
+    padding:96px 88px 40px 88px;
+
+    & .a{
+          color: white;
+    }
+}
+ 

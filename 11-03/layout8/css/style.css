@@ -1,0 +1,12 @@
+*{margin: 0px; padding:0px; box-sizing: border-box; word-wrap: break-word;}
+.mainbody{height:650px; width: 100%; background-color: rgb(219, 234, 234);}
+.main{height: 50px; width: 100%; border-bottom:4px solid black;}
+.container1{height: 100px; width: 96%; background-color: blue; border: 3px solid black;
+ margin:10px 0px 10px 10px;}
+.section{height: 400px; width: 97%;}
+.container2{height: 400px; width:32%; background-color: red;  float: left;
+ border: 3px solid black; margin: 0px 20px 0px 10px ; }
+.container3{height: 400px; width:32%; background-color: chartreuse; float: left;
+    border: 3px solid black; margin-right: 20px; }
+.container4{height: 400px; width:32%; background-color: chocolate; float: left;
+    border: 3px solid black;  b}

@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.outer {
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(
+    rgb(190, 190, 234),
+    rgb(131, 131, 247),
+    rgb(127, 127, 171),
+    rgb(89, 89, 237)
+  );
+}
+.inner {
+  height: 400px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  top: 100px;
+  background: linear-gradient(
+    rgb(60, 60, 235),
+    rgb(27, 27, 160),
+    rgb(120, 120, 238)
+  );
+  /* box-shadow: 0px 7px 7px 8px white; */
+  box-shadow: 0px 7px 7px 8px white;
+  position: relative;
+  & h1{
+    font-style: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 240px;
+    top: 50px;
+
+  }
+  & [type="email"]{
+    height: 45px;
+    width: 450px;
+    font-size: 20px;
+    padding-left: 50px;
+    position: absolute;
+    top: 100px;
+    left: 65px;
+    
+  }
+  & [type="password"]{
+    height: 45px;
+    width: 450px;
+    font-size: 20px;
+    padding-left: 50px;
+    position: absolute;
+    top: 160px;
+    left: 65px;
+  }
+  & [type="text"]{
+    height: 45px;
+    width: 450px;
+    font-size: 20px;
+    padding-left: 50px;
+    position: absolute;
+    top: 220px;
+    left: 65px;
+  }
+  & [type="submit"]{
+    height: 45px;
+    width: 450px;
+    font-size: 20px;
+    position: absolute;
+    top: 280px;
+    left: 65px;
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+}
+
+.icon1{
+  background-color: white;
+  padding: 12px;
+  position: relative;
+  top: 114px;
+  left: 68px;
+  z-index: 1;
+}
+.icon2{
+  background-color: white;
+  padding: 12px;
+  position: relative;
+  top: 174px;
+  left: 28px;
+  z-index: 1;
+}
+.icon3{
+  background-color: white;
+  padding: 12px;
+  position: relative;
+  top: 234px;
+  right:17px;
+  z-index: 1;
+  
+}

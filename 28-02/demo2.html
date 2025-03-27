@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+/* .a{height: 28px; width: 60%; margin: 14px 20%;}
+.b{height: 28px; width: 60%; margin: 14px 20%; border: none; border-bottom: 2px solid blue;
+&:focus{outline: none;}
+}
+.c{margin: 20px 0px 0px 20%; padding: 14px 30px; background: orange;}
+label{margin-left: 20%;} */
+
+[type="text"]{height: 28px; width: 60%; margin: 14px 20%;}
+[type="email"]{height: 28px; width: 60%; margin: 14px 20%; border: none; border-bottom: 2px solid blue;
+    &:focus{outline: none;}}
+    [type="submit"]{margin: 20px 0px 0px 20%; padding: 14px 30px; background: orange;}
+    label{margin-left: 20%;}
+    </style>
+</head>
+<body>
+    <form name="frm">
+        <label>Name</label>
+        <input type="text" name="n" placeholder="Enter Name" class="a">
+        <label>Email</label>
+        <input type="email" name="e" placeholder="Enter Email" class="b">
+        <input type="submit" class="c">
+    </form>
+</body>
+</html>

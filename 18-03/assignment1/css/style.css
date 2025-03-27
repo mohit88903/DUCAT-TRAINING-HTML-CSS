@@ -1,0 +1,9 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+body{background: url('../image/pic5.jpg'); background-size: cover; background-repeat: no-repeat;}
+
+.mainbody{height: 600px; width: 80%; margin: 15px 10%; background: white;}
+.wrapper{height: 550px; width: 80%; position: relative; top: 25px; left: 10%;}
+.header{height: 100px; width: 100%; background: lightcoral;}
+.menu{height: 40px; background: lightcoral; width: 100%; margin-top: 10px;}
+.center{height: 340px; width: 100%; background: lightcoral; margin-top: 10px;}
+.footer{height: 30px; width: 100%; margin-top: 10px; background: lightcoral;}

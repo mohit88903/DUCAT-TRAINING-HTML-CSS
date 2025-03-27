@@ -1,0 +1,86 @@
+body {
+  background: lightblue;
+}
+#container {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform:translate((-50%, -50%));
+}
+#cup{
+    z-index: 1;
+}
+#cup-body{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    background: white;
+    border-radius: 0px 0px 150px 150px;
+    margin: auto;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+}
+#cup-handle{
+    position: relative;
+    height: 75px;
+    width: 80px;
+    border-radius: 0px 150px 150px 0px;
+    border: 15px solid white;
+    margin-bottom: 95px;
+    margin-left: 250px;
+    display: inline-block;
+    z-index: 0;
+}
+.shadow{
+    height: 10px;
+    width:300px;
+    background: rgb(68, 87, 94);
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 6px;
+}
+.steam{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: white;
+   margin-top: -75px;
+   margin-left: 42px;
+   z-index: 0;
+
+}
+#steam1{animation: steam1 4s ease-out infinite;}
+#steam3{animation: steam1 4s ease-out infinite;}
+
+@keyframes steam1 {
+    0%{transform: translateY(0) translateX(0) scale(0.25); opacity:0.2;}
+    100%{transform: translateY(-200px) translateX(-20px) scale(1); opacity:0;}
+    
+}
+#steam2{animation: steam2 4s ease-out 0.5s infinite;}
+#steam4{animation: steam2 4s ease-out 1.5s infinite;}
+
+@keyframes steam2 {
+    0%{transform: translateY(0) translateX(0) scale(0.25); opacity:0.2;}
+    100%{transform: translateY(-200px) translateX(20px) scale(1); opacity:0;}
+}
+
+
+#steam5{animation: steam3 4s ease-out 0.9s infinite;}
+#steam6{animation: steam3 4s ease-out 1s infinite;}
+
+@keyframes steam3 {
+    0%{transform: translateY(0) translateX(0) scale(0.25); opacity:0.2;}
+    100%{transform: translateY(-200px) translateX(-20px) scale(1); opacity:0;}
+    
+}
+#steam7{animation: steam4 4s ease-out 0.6s infinite;}
+#steam8{animation: steam4 4s ease-out 2s infinite;}
+
+@keyframes steam4 {
+    0%{transform: translateY(0) translateX(0) scale(0.25); opacity:0.2;}
+    100%{transform: translateY(-200px) translateX(20px) scale(1); opacity:0;}
+}
+

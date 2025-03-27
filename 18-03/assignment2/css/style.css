@@ -1,0 +1,15 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.mainbody{height: auto; width: 100%;}
+.header{height: auto; width: 100%; position: relative; padding: 40px; background: lightblue;}
+.menu{position: absolute; right: 50px; border: solid; padding: 10px; top:100px;
+& a{text-decoration: none; padding: 10px 30px;}
+}
+.slider{height:400px ; width: 100%; background: url(../image/pic5.jpg); background-size: cover;
+position: relative;
+}
+.slidertitle{height: auto; width: 100%; background: rgba(0,0,0,0.5); position: absolute;
+bottom: 10px; padding: 10px 0px; color: white;
+}
+.icon .a{font-size: 80px; color: red; margin: 0px 30px;}
+.icon .c{font-size: 80px; color: green; margin: 0px 30px;}
+.icon .d{font-size: 80px; color: green; margin: 0px 30px;}

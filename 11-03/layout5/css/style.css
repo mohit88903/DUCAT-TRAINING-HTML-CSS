@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0; box-sizing: border-box; word-wrap: break-word;}
+
+ /* body {
+  background-image: url("../images/image1.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}  */
+
+.mainbody{height: 650px; width:100%; background-color: rgb(140, 56, 56);}
+.mainmenu{height:40px; width: 100%; background-color: brown; text-align: center;
+   font-size: 25px; color: white;}
+.header{height:100px; width:100%; background-color: blue; text-align: center;
+ & p{ position: relative;  top: 35px; color: white; font-size: 25px;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',  Verdana, sans-serif;} }
+ .center{height:450px; width:100%; text-align: center;}
+.content{height: 450px; width: 65%; background-color: chartreuse; float: left; 
+& h2{position: relative; top:200px; color: white; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',  Verdana, sans-serif;}}
+.sidebar{height: 450px; width: 35%; background-color: rgb(172, 11, 11); float: left;
+  & h2{position: relative; top:200px; color: white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',  Verdana, sans-serif;}}
+.footer{height:60px; width: 100%; background-color: red; text-align: center;
+  & h2{position: relative; top:20px; color: white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',  Verdana, sans-serif;}}

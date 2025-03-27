@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+.outer{height: 400px; width: 100%; position: relative; overflow: hidden;}
+.outer::before{
+    content: '';
+    background: url('mohit.png'); background-size: cover;
+    position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;
+    z-index: -1; opacity: 0.1;
+}
+.inner{
+    position: relative; z-index: 1;
+}
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="inner">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima sit voluptates eaque. Necessitatibus sint ipsum nam, placeat doloribus sunt cupiditate molestias aliquid ut excepturi laboriosam porro totam expedita illum temporibus, at impedit autem dolorem debitis tenetur rerum suscipit, a asperiores! Excepturi totam dolores exercitationem provident sit sint perspiciatis quidem. Cum.</p>
+    </div>
+</div>
+</body>
+</html>

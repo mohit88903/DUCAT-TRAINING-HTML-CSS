@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0; box-sizing: border-box; word-wrap: break-word;}
+.mainbody{height: 650px; width:100%; background-color: rgb(140, 56, 56);}
+.mainsection{height:70px; width: 100%; text-align: center;}
+.side{height: 70px; width: 10%; background-color: red; float: left; 
+    border-right:3px solid black;
+& h3{position: relative; top:20px;}}
+.websiteheading{height: 70px; width: 90%; background-color: red; float: left;
+    & h3{position: relative; top:20px;}}
+.menu{height: 50px; width:100%; background-color: chartreuse; text-align: center; 
+& h3{position: relative; top: 10px;}}
+.section{height: 130px; width: 100%; background-color: blanchedalmond; text-align: center;}
+.section1{height: 130px; width: 33%; background-color: blue; float: left;
+& h3{position: relative; top: 40px;}}
+.section2{height: 130px; width: 33%; background-color: brown; float: left;
+    & h3{position: relative; top: 40px;}}
+.section3{height: 130px; width: 34%; background-color: cadetblue; float: left;
+    & h3{position: relative; top: 40px;}}
+.content{height:350px; width:100%; text-align: center;}
+.pagecontent{height:350px; width: 80%; background-color: khaki; float: left;
+& h3{position: relative; top: 160px;}}
+.sidebar{height: 350px; width:20%; background-color: red; float: left;
+    & h3{position: relative; top: 160px;}}
+.footer{height: 50px; width:100%; background-color: blue; text-align: center;
+& h3{position: relative; top: 13px;}}

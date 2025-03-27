@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      .outer {
+        height: 200px;
+        width: 350px;
+        perspective: 900px;
+      }
+      .inner {
+        height: 100%;
+        width: 100%;
+        transform-style: preserve-3d;
+        transition: all 3s;
+        position: relative;
+      }
+      .front,
+      .back {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+      }
+      .back {
+        background: orange;
+        transform: rotateY(180deg);
+      }
+
+      .outer:hover .inner {
+        transform: rotateY(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <div class="front">
+          <img src="a.jpg" height="200px" width="350px" />
+        </div>
+        <div class="back">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vero
+          molestiae repellat hic dolorum! Illum ratione repellat esse tenetur
+          quia non fuga consequuntur eos.
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>

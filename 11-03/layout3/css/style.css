@@ -1,0 +1,11 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; word-wrap: break-word;}
+
+.mainbody{height: 1000px; width: 100%; background: orange;}
+.header{height: 150px; width: 100%; background: grey; text-align: center;}
+.menu{height: 50px; width: 100%; background: wheat; text-align: center;}
+.center{height: 700px; width: 100%; background: yellowgreen; text-align: center;}
+.footer{height: 100px; width: 100%; background: black; color: white; text-align: center;}
+
+.left{height: 700px; width: 20%; background: green; float: left;}
+.mid{height: 700px; width: 60%; background: violet; float: left;}
+.right{height: 700px; width: 20%; background: turquoise; float: left;}

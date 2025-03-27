@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  /* background-image: url('../images/mohit.jpg'); */
+}
+.mainbody {
+  height: 650px;
+  width: 90%;
+  margin-left: 70px;
+  background-color: white;
+  border: 4px solid black;
+}
+.main {
+  height: 150px;
+  width: 80%;
+  margin: 50px 10% 10px 10%;
+  background-color: burlywood;
+  & .image1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 70px;
+  }
+  & h1 {
+    position: relative;
+    left: 180px;
+    bottom: 20px;
+    font-size: 50px;
+    font-style: oblique;
+  }
+  & .image2 {
+    height: 80px;
+    width: 80px;
+    float: right;
+    position: relative;
+    bottom: 110px;
+    right: 220px;
+    border-radius: 50%;
+  }
+}
+.center {
+  height: 50px;
+  width: 80%;
+  margin: 0px 10% 10px 10%;
+  background-color: burlywood;
+  & p {
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: 10px;
+  }
+}
+.container {
+  height: 300px;
+  width: 80%;
+  margin: 0px 10% 10px 10%;
+  background-color: burlywood;
+  & .a{position:relative; left: 90px; top: 20px; text-decoration: underline;}
+  & p{position: relative; left: 90px; top: 26px; font-size: 20px;}
+  & .b{position:relative; left: 90px; top: 40px; text-decoration: underline;}
+  & ul{position: relative; left: 120px; top: 60px; font-size: 20px; 
+   list-style:url('../images/mohit.jpg')}
+}
+.footer {
+  height: 30px;
+  width: 80%;
+  margin: 0px 10% 10px 10%;
+  background-color: burlywood;
+  p {
+    text-align: center;
+    font-size: 27px;
+  }
+}

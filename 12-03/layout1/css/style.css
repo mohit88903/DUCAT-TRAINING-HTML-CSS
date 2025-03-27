@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.mainbody{
+    height: auto;
+    width:100%;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(234, 225, 129);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+.head1{
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    
+
+}
+.head2{
+    font-size: larger;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color:burlywood;
+
+}
+.head3{
+    font-size: larger;
+    position: absolute;
+   left: 650px;
+   top: 38px;
+   color: blue;
+
+}
+.head4{
+    font-size: larger;
+    position: absolute;
+    left: 450px;
+    top: 60px;
+    coolor:blue;
+}
+.link{
+    height: 30px;
+    width: 48%;
+    border: 3px solid blue;
+    border-radius: 8px;
+    font-size: 25px;
+    text-decoration: none;
+    position: absolute;
+    left: 640px;
+    top: 60px;
+    & a{
+        text-decoration: none;
+        padding-left: 60px;
+    }
+}
+
+.image{
+    height: 170px;
+    width: 100%;
+    border:2px solid green;
+    margin-top: 4px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+
+}
+.image1{
+    background-image: url(../images/pic5.jpg);
+    height: 160px;
+    width:100%;
+background-size: cover;
+& p{
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 125px;
+}
+& button{
+    background-color: red;
+    padding: 10px 4px 10px 4px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 110px;
+
+}
+}
+
+.center{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 14px;
+    border-radius: 10px;
+
+}
+
+.box1{
+    height:290px;
+    width: 70%;
+    border: 2px solid black;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    
+    & h3{
+        float: right;
+        padding-right: 30px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    & h2{
+        padding-left: 20px;
+        padding-top: 10px;
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    & p{
+        text-align: justify;
+        line-height: 19px;
+    }
+}
+
+.box2{
+    height: 280px;
+    width: 29%;
+    border: 3px solid black;
+    float: right;
+    border-radius: 10px;
+    margin-right: 3px;
+    background-color: brown;
+    & h2{
+        padding: 20px 0px 10px 60px;
+        color: white;
+    }
+    & img{
+        height: 100px;
+        width: 250px;
+        padding-left: 120px;
+    }
+    & h4{
+        color:white;
+        text-align: justify;
+        padding:10px 5px 5px 10px;
+    }
+    & h1{
+        font-size: 36px;
+        color: blue;
+        padding: 3px 10px 0px 80px;
+        background-color: white;
+    }
+    
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+    bottom: 0px;
+    top: 8px;
+    border-radius:10px;
+    float: inline-start;
+}
+.box4{
+    height:120px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 16px 0px 5px 5px;
+    float: left;
+    padding-left: 9px;
+}
+.box5{
+    height:120px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 16px 0px 5px 1px;
+    float: left;
+    & h2{
+        padding:10px 4px ;
+    }
+    & img{
+        height:65px;
+        width: 92px;
+    
+    }
+}
+.box6{
+    height:120px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 16px 0px 5px 1px;
+    float: left;
+    position: relative;
+    & h2{
+        padding: 10px 4px;
+    }
+}
+.friends1{
+   position: absolute;
+   left: 26px;
+   bottom:2px;
+   text-transform: capitalize;
+   font-size: 16px;
+}
+.friends2{
+    position: absolute;
+    bottom: 2px;
+    right: 70px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
