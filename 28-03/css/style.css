@@ -1,0 +1,61 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.header{padding: 40px; background: blueviolet; position: relative;}
+.title{position: absolute; right: 150px; top: 40px; font-size: 4vw; color: white;}
+
+.menu{display: flex; justify-content: space-between; background: lightblue;
+padding: 12px 20px; position: sticky; top: 0px;
+}
+.brand{font-size: 20px; font-weight: bold;}
+.toggle{background: none; border: none; display: none; flex-direction: column;}
+.bar{height: 3px; width: 40px; background: white; margin-top: 2px;}
+
+.nav{display: flex; gap:15px;}
+.nav a{padding: 12px 24px; text-decoration: none;}
+.slider{padding: 400px; background: url('../image/b1.jpg'); background-size: cover;
+animation: slider 4s infinite linear;
+}
+@keyframes slider{
+    0%{background: url('../image/b1.jpg');}
+    25%{background: url('../image/b3.jpg');}
+    50%{background: url('../image/pic4.jpg');}
+    75%{background: url('../image/pic5.jpg');}
+}
+
+.profile{display: grid; grid-template-columns: auto auto auto auto; gap: 10px; margin-top: 10px;}
+.pname{border: 1px solid blue;
+& img{height: auto; width: 100%; max-width: 100%;}
+}
+.content{padding: 15px; text-align: center; line-height: 30px;}
+
+.center{display: grid; grid-template-columns: 20% auto; gap:20px ;}
+.left ul{list-style: none; margin-top: 30px;}
+.left li{width: 100%; background: lightblue; text-align: center; padding: 12px 0px;
+margin-top: 5px;}
+.left #mylist{font-size: 24px; background: orange;}
+.right{padding: 30px; text-align: justify;}
+.footer{padding: 20px; text-align: center; background: black; color: white; font-size: 2vw;}
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+    .title{right: 130px;}
+    .slider{padding: 300px;}
+    .profile{ grid-template-columns: auto auto auto; }
+}
+@media only screen and (max-width:992px){
+    .title{right: 70px;}
+    .slider{padding: 200px;}
+    .profile{ grid-template-columns: auto auto; }
+}
+@media only screen and (max-width:768px){
+ .title{position: static; text-align: center; margin-top: 15px;}
+ .header{text-align: center;}
+ .toggle{display: flex;}
+ .nav{display: none; flex-direction: column;}
+ .slider{padding: 100px;}
+ .profile{ grid-template-columns: auto; }
+}
