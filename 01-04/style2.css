@@ -1,0 +1,16 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.header{padding: 40px; text-align: center; font-size: 4vw; background: grey;}
+.center{display: grid; grid-template-columns: auto auto auto auto auto auto; gap: 20px;}
+.row{padding: 40px; border: solid;}
+
+
+@media only screen and (max-width:1200px){
+    .center{ grid-template-columns: auto auto auto auto ;}
+}
+@media only screen and (max-width:992px){
+    .center{ grid-template-columns: auto auto ;}
+}
+@media only screen and (max-width:768px){
+    .center{ grid-template-columns: auto  ;}
+   
+}
